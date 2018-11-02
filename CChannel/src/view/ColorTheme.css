@@ -1,0 +1,15 @@
+
+.orange_background {
+	-fx-background-color: orange;
+	-fx-border-color: orange;
+}
+
+.text_button {
+	-fx-text-fill: white;
+}
+
+.text_label {
+	-fx-font-size: 15;
+	-fx-text-fill: black;
+	-fx-font-family: "Segoe UI Semibold";
+}
