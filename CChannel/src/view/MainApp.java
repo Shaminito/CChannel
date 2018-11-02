@@ -16,9 +16,9 @@ public class MainApp extends Application {
 		try {
 			FXMLLoader layouts = new FXMLLoader();
 			layouts.setLocation(MainApp.class.getResource("Layouts.fxml"));
-			AnchorPane bpLayouts = (AnchorPane) layouts.load();
+			AnchorPane aLayouts = (AnchorPane) layouts.load();
 			
-			Scene scene = new Scene(bpLayouts);
+			Scene scene = new Scene(aLayouts);
 			primaryStage.setScene(scene);
 			
 			LayoutsController controller = layouts.getController();
@@ -29,7 +29,6 @@ public class MainApp extends Application {
 			
 			primaryStage.show();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

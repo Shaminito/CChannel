@@ -23,6 +23,6 @@ public class LayoutsController {
 	
 	@FXML
 	private void c_btnLive() {
-		
+		//TODO
 	}
 }
