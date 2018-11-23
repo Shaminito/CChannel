@@ -9,6 +9,13 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+/**
+ * 
+ * @author 21746033
+ * @version 1.0
+ * @see LayoutsController
+ *
+ */
 public class MainApp extends Application {
 
 	@Override
